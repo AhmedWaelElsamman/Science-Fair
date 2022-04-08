@@ -7,7 +7,7 @@
 
     const prevents = (e) => e.preventDefault();
 
-    <!--qwe can save the files from here -->
+    
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(evtName => {
         droparea.addEventListener(evtName, prevents);
     });

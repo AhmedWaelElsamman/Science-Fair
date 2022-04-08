@@ -12,11 +12,12 @@
   }
   
   body {
-    background-color: #fff;
+    background-color: rgba(247, 247, 247, 0.212);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    display: inline;
   }
   
   main {
@@ -53,4 +54,35 @@
 
   .one {
       color: black;
+      
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{font-family: 'Cairo', sans-serif;
+margin: 0%;
+padding: 0%;
+}
+.Header{
+background-color: rgb(17, 108, 226);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+padding: 10px 50px;
+}
+.Logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aquamarine;
+    font-size: 1.8em;
+}
+
+.Nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aquamarine;
+  font-size: 1em;
+  padding-left: 30px;
+}
