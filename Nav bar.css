@@ -7,15 +7,18 @@
     font-family: sans-serif;
   }
   nav {
-    background: rgb(9, 10, 88);
+    background: rgb(94, 212, 6);
     padding: 5px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   ul {
     list-style-type: none;
+    font-size: xx-large;
   }
   a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: x-large;
   }
   a:hover {
     text-decoration: underline;
@@ -111,8 +114,8 @@
     }
     .button a {
         padding: 7.5px 15px;
-        background: teal;
-        border: 1px #006d6d solid;
+        background: #9E7D3C;
+        border: 1px #703c0f solid;
         border-radius:50em;
     }
     .button.secondary a {
@@ -123,8 +126,8 @@
         transition:all .25s;
     }
     .button:not(.secondary) a:hover {
-        background: #006d6d;
-        border-color: #005959;
+        background: #9b762c;
+        border-color: #4d2503;
     }
     .button.secondary a:hover {
         color: #ddd;
